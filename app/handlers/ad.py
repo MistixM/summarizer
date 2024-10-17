@@ -11,7 +11,8 @@ async def send_advertisement(msg: types.Message, bot: Bot):
     if not msg.chat.id == ADMIN:
         await bot.send_message(msg.chat.id,
                                FOUR_O_FOUR,
-                               parse_mode='HTML')
+                               parse_mode='HTML',
+                               disable_web_page_preview=True)
         return
     
     chat_ids = get_all_chats()

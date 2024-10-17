@@ -12,4 +12,6 @@ async def faq_command(msg: types.Message, bot: Bot):
     for title, answer in FAQS.items():
         faq += f"<b>{title}</b>\n{answer}\n\n"
 
-    await bot.send_message(msg.chat.id, faq, parse_mode='HTML')
+    await bot.send_message(msg.chat.id, faq, 
+                           parse_mode='HTML',
+                           disable_web_page_preview=True)
