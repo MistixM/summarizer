@@ -1,15 +1,18 @@
 from aiogram import Bot, Dispatcher
 from app.handlers import routers_list
+from app.constants.wrap import LOCAL_TEST
 
 import configparser
 import asyncio
 
 async def main():
-
     config = configparser.ConfigParser()
     config.read('app/constants/config.ini')
 
-    bot = Bot(token=config['Bot']['TOKEN'])
+    if not LOCAL_TEST:
+        bot = Bot(token=config['Bot']['TOKEN'])
+    else:
+        bot = Bot(token=config['Bot']['TEST_TOKEN'])
 
     dp = Dispatcher()
 
