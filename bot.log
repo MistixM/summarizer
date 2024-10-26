@@ -1,0 +1,28 @@
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 230
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 56
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 56
+INFO:aiogram.event:Update id=131951061 is handled. Duration 327 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+INFO:aiogram.event:Update id=131951062 is handled. Duration 327 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 56
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951064 is handled. Duration 202 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 56
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+INFO:aiogram.event:Update id=131951063 is handled. Duration 719 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
