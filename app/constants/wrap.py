@@ -1,6 +1,7 @@
 # Links to social media, docs, groups, etc
 FEATURES_LINK = "https://teletype.in/@mdevv/r1huS__Og1m"
 SUPPORT_LINK = "https://t.me/+GVq4lXRADWM4MWRi"
+CHANNEL_LINK = "https://t.me/sumarizerchannel"
 USER_AGREEMENT_LINK = "https://teletype.in/@mdevv/cux9bGLs_vi"
 
 # Menu buttons
@@ -27,7 +28,7 @@ BOT_COOLDOWN = "🤔 Please wait some time before continuing"
 # DM messages
 DM_START = f"👨‍💻 Hey there! My name's Summarizer. I'm here to help you to summarize messages in the chat, so you can understand what's going on there.\n\n✅ To continue, please add me to the chat with admin rights. You can do this by using /install command or by hand.\n\n🗂 <a href='{FEATURES_LINK}'>Read about my features and commands</a>\n📣 <a href='{SUPPORT_LINK}'>Support channel</a>\n📑<a href='{USER_AGREEMENT_LINK}'> User Agreement</a>"
 FOUR_O_FOUR = f"👀 Lost? Sorry, you cannot continue.\n\nContact: {SUPPORT_LINK}"
-SUPPORT_MESSAGE = f"🤔 If you have any questions or problems, please do not hesitate to contact us!\n\nChat: {SUPPORT_LINK}"
+SUPPORT_MESSAGE = f"🤔 If you have any questions or problems, please do not hesitate to contact us!\n\nChat: {SUPPORT_LINK}\nChannel: {CHANNEL_LINK}"
 INSTALLATION_MESSAGE = f"⚙️ To install the bot in your chat, use the button below. \n\n<b>IMPORTANT: Don't forget to give the bot admin rights to set it up properly. Otherwise it won't work!</b>"
 
 # Subscription messages

@@ -1,0 +1,16 @@
+27.10.2024 23:18 - INFO - Bot started
+27.10.2024 23:18 - DEBUG - Using proactor: IocpProactor
+27.10.2024 23:18 - INFO - Start polling
+27.10.2024 23:18 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+27.10.2024 23:18 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+27.10.2024 23:18 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+27.10.2024 23:18 - DEBUG - Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+27.10.2024 23:18 - DEBUG - https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 356
+27.10.2024 23:18 - DEBUG - https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+27.10.2024 23:18 - INFO - Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+27.10.2024 23:18 - DEBUG - https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+27.10.2024 23:18 - DEBUG - https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 126
+27.10.2024 23:19 - INFO - Update id=131951319 is handled. Duration 265 ms by bot id=7082522777
+27.10.2024 23:19 - INFO - Polling stopped
+27.10.2024 23:19 - INFO - Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+27.10.2024 23:19 - INFO - Bot stopped
