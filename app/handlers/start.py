@@ -14,6 +14,8 @@ from app.database.db import (register_user,
                              remove_chat)
 
 import os
+import logging
+import re
 
 # Create separate router
 start_router = Router()
@@ -47,10 +49,17 @@ async def start_message(msg: types.Message, bot: Bot):
 # Handler to check invite status
 @start_router.my_chat_member()
 async def handle_bot_added(update: types.ChatMemberUpdated, bot: Bot):
+    print(update.new_chat_member.status)
 
     # Check: who added the bot to the group
     if update.new_chat_member.status in ['member', 'administrator']:
-
+        
+        if update.new_chat_member.status == "member":
+            await bot.send_message(update.chat.id, 
+                                GROUP_START,
+                                disable_web_page_preview=True,
+                                parse_mode='HTML')
+            
         if not check_chat(update.chat.id):
             save_chat(update.chat.id)
 
@@ -71,11 +80,21 @@ async def handle_bot_added(update: types.ChatMemberUpdated, bot: Bot):
         # Vip status checking
         if is_vip:
             update_chat_data(update.chat.id, "vip", True)
-            await bot.send_message(update.chat.id,
-                                   f"🤩 Congratulations to @{user.username}! Now the chat has a VIP status",
-                                   parse_mode='markdown')
-
+            if not any(char in user.username for char in ['_', '*', '[']): 
+                await bot.send_message(update.chat.id,
+                                    f"🤩 Congratulations to @{user.username}! Now the chat has a VIP status",
+                                    parse_mode='markdown')
+            else:
+                await bot.send_message(update.chat.id,
+                                    f"🤩 Congratulations to {user.first_name}! Now the chat has a VIP status",
+                                    parse_mode='HTML')
+                
     if update.new_chat_member.status in ['kicked', 'left']:
-        os.remove(os.path.join(VIP_FOLDER, f'{update.chat.id}.json'))
-        
+        filename = os.path.join(VIP_FOLDER, f'{update.chat.id}.json')
+
+        if os.path.exists(filename):
+            os.remove(filename)
+        else:
+            logging.warning("File does not exist. Delete from database only")
+
         remove_chat(update.chat.id)

@@ -5,24 +5,1407 @@ DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googlea
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
 DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
-DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 230
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
 DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
 INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
-DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 56
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "DELETE /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951135 is handled. Duration 61 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951128 is handled. Duration 218 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951129 is handled. Duration 375 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951130 is handled. Duration 561 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951131 is handled. Duration 765 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951132 is handled. Duration 983 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951133 is handled. Duration 1140 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951134 is handled. Duration 1280 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951136 is handled. Duration 1297 ms by bot id=7082522777
 DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
-DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 56
-INFO:aiogram.event:Update id=131951061 is handled. Duration 327 ms by bot id=7082522777
-DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
-INFO:aiogram.event:Update id=131951062 is handled. Duration 327 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:Resetting dropped connection: summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app
 DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
 DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
-DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 56
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
 DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
 DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
-INFO:aiogram.event:Update id=131951064 is handled. Duration 202 ms by bot id=7082522777
-DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 56
+INFO:aiogram.event:Update id=131951138 is handled. Duration 265 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
 DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
-INFO:aiogram.event:Update id=131951063 is handled. Duration 719 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+INFO:aiogram.event:Update id=131951137 is handled. Duration 1203 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951139 is handled. Duration 327 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951140 is not handled. Duration 0 ms by bot id=7082522777
+ERROR:aiogram.event:Cause exception while process update id=131951140 by bot id=7082522777
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'vip_chats\\-1002433982261.json'
+Traceback (most recent call last):
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "D:\Mihasik_515\Python\summarizer\app\handlers\start.py", line 79, in handle_bot_added
+    os.remove(os.path.join(VIP_FOLDER, f'{update.chat.id}.json'))
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'vip_chats\\-1002433982261.json'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951141 is handled. Duration 186 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951142 is handled. Duration 234 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951144 is handled. Duration 155 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+INFO:aiogram.event:Update id=131951145 is handled. Duration 452 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951143 is handled. Duration 937 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951146 is not handled. Duration 0 ms by bot id=7082522777
+ERROR:aiogram.event:Cause exception while process update id=131951146 by bot id=7082522777
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'vip_chats\\-1002433982261.json'
+Traceback (most recent call last):
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "D:\Mihasik_515\Python\summarizer\app\handlers\start.py", line 79, in handle_bot_added
+    os.remove(os.path.join(VIP_FOLDER, f'{update.chat.id}.json'))
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'vip_chats\\-1002433982261.json'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951147 is handled. Duration 172 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+INFO:aiogram.event:Update id=131951148 is handled. Duration 265 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951150 is handled. Duration 157 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+INFO:aiogram.event:Update id=131951149 is handled. Duration 922 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951151 is handled. Duration 609 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951152 is handled. Duration 188 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "DELETE /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951153 is handled. Duration 77 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951154 is handled. Duration 77 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951156 is handled. Duration 218 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+INFO:aiogram.event:Update id=131951155 is handled. Duration 984 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951157 is handled. Duration 655 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951158 is not handled. Duration 0 ms by bot id=7082522777
+ERROR:aiogram.event:Cause exception while process update id=131951158 by bot id=7082522777
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'vip_chats\\-1002433982261.json'
+Traceback (most recent call last):
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "D:\Mihasik_515\Python\summarizer\app\handlers\start.py", line 80, in handle_bot_added
+    os.remove(os.path.join(VIP_FOLDER, f'{update.chat.id}.json'))
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'vip_chats\\-1002433982261.json'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951159 is handled. Duration 156 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+INFO:aiogram.event:Update id=131951160 is handled. Duration 155 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951162 is handled. Duration 140 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951161 is handled. Duration 719 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951163 is handled. Duration 343 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "DELETE /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951164 is handled. Duration 77 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951165 is handled. Duration 79 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951167 is handled. Duration 172 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+INFO:aiogram.event:Update id=131951166 is handled. Duration 1109 ms by bot id=7082522777
+WARNING:root:File does not exist. Delete from database only
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "DELETE /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951168 is handled. Duration 77 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951169 is handled. Duration 62 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951171 is handled. Duration 140 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+INFO:aiogram.event:Update id=131951170 is handled. Duration 1204 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+WARNING:root:File does not exist. Delete from database only
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "DELETE /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951172 is handled. Duration 109 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:Resetting dropped connection: summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951174 is handled. Duration 234 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+INFO:aiogram.event:Update id=131951173 is handled. Duration 1265 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:Resetting dropped connection: summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951175 is handled. Duration 250 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:Resetting dropped connection: summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951176 is handled. Duration 437 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951177 is handled. Duration 265 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951178 is handled. Duration 0 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951179 is not handled. Duration 297 ms by bot id=7082522777
+ERROR:aiogram.event:Cause exception while process update id=131951179 by bot id=7082522777
+TelegramBadRequest: Telegram server says - Bad Request: not enough rights to send text messages to the chat
+Traceback (most recent call last):
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "D:\Mihasik_515\Python\summarizer\app\handlers\summarize.py", line 109, in summarize_cmd
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\bot.py", line 2917, in send_message
+    return await self(call, request_timeout=request_timeout)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: not enough rights to send text messages to the chat
+WARNING:root:File does not exist. Delete from database only
+DEBUG:urllib3.connectionpool:Resetting dropped connection: summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "DELETE /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951180 is handled. Duration 217 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951181 is handled. Duration 79 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951182 is handled. Duration 296 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951184 is handled. Duration 219 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+INFO:aiogram.event:Update id=131951183 is handled. Duration 920 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951185 is handled. Duration 547 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 34
+INFO:aiogram.event:Update id=131951186 is handled. Duration 500 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951187 is handled. Duration 250 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:Resetting dropped connection: summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+INFO:aiogram.event:Update id=131951188 is handled. Duration 938 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951189 is handled. Duration 156 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951190 is handled. Duration 156 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951191 is handled. Duration 312 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951192 is handled. Duration 265 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951193 is handled. Duration 625 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951194 is handled. Duration 234 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951195 is handled. Duration 250 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951196 is handled. Duration 234 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951197 is handled. Duration 280 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951198 is handled. Duration 265 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+INFO:aiogram.event:Update id=131951199 is handled. Duration 0 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+INFO:aiogram.event:Update id=131951200 is handled. Duration 202 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+INFO:aiogram.event:Update id=131951201 is handled. Duration 250 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951202 is handled. Duration 266 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951203 is handled. Duration 0 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951204 is handled. Duration 281 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951205 is handled. Duration 157 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951206 is handled. Duration 344 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951207 is handled. Duration 172 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951208 is handled. Duration 344 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951209 is handled. Duration 234 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:Resetting dropped connection: summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/1266917712.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951210 is handled. Duration 327 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951211 is handled. Duration 282 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids.json HTTP/11" 200 84
+INFO:aiogram.event:Update id=131951212 is handled. Duration 594 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/1266917712.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951213 is handled. Duration 94 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/1266917712.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951214 is handled. Duration 79 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951215 is handled. Duration 234 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/1266917712.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951216 is handled. Duration 79 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids.json HTTP/11" 200 84
+INFO:aiogram.event:Update id=131951217 is handled. Duration 780 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951218 is handled. Duration 282 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951219 is handled. Duration 141 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951220 is handled. Duration 265 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951221 is handled. Duration 170 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+INFO:aiogram.event:Update id=131951222 is handled. Duration 219 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+INFO:aiogram.event:Update id=131951223 is handled. Duration 327 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951224 is handled. Duration 203 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+INFO:aiogram.event:Update id=131951225 is handled. Duration 312 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+INFO:aiogram.event:Update id=131951226 is handled. Duration 312 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:Resetting dropped connection: summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 34
+INFO:aiogram.event:Update id=131951227 is handled. Duration 577 ms by bot id=7082522777
+WARNING:root:File does not exist. Delete from database only
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "DELETE /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951228 is handled. Duration 77 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951229 is handled. Duration 93 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951230 is handled. Duration 234 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951232 is handled. Duration 187 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+INFO:aiogram.event:Update id=131951231 is handled. Duration 1030 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951233 is handled. Duration 687 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:Resetting dropped connection: summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951234 is handled. Duration 547 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951235 is handled. Duration 187 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951236 is handled. Duration 170 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951237 is handled. Duration 172 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951238 is handled. Duration 327 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951239 is handled. Duration 842 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951240 is handled. Duration 1000 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951241 is handled. Duration 1734 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951242 is handled. Duration 1890 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951243 is handled. Duration 2047 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951244 is handled. Duration 2202 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='C:\\Users\\MistixM\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'
+DEBUG:openai._base_client:Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You're language depends on chat's language. You are a summarizer who will summarize all the messages that comes from the Telegram chat. Please make the summaries short, but without loss of meaning. Also remember to summarize with the same language as the chat."}, {'role': 'user', 'content': 'Summarize the following conversation: \n\nmdevv said heeeymdevv said just got some messages for you guysmdevv said that\'s from our "telegram bot dev" chatmdevv said How are we planning on tracking user feedback post-launch?mdevv said We could set up an in-bot feedback form that automatically sends data to us. It\'s direct, and we’ll mdevv said Huh.. Good ideamdevv said And, promotion-wise, are we targeting primarily Telegram channels and groups?mdevv said Yes, Telegram groups for sure. Also, collaborations with influencers in tech and productivity.mdevv said Noted. Any budget updates on that?mdevv said I’m willing to scale it up if it’ll get resultsmdevv said We have a $50 starting budget, but I suggest we increase it once we see initial responses.'}], 'model': 'gpt-4o-mini'}}
+DEBUG:openai._base_client:Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+DEBUG:httpcore.connection:connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001FE46DE7940>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x000001FE45AAAEC0> server_hostname='api.openai.com' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001FE46DE57B0>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 27 Oct 2024 10:37:14 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-pvvjlwy70pm2cleblcu89ayi'), (b'openai-processing-ms', b'730'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'199726'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'82ms'), (b'x-request-id', b'req_3441b3ea17be7d21b776d79e52f3c809'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=XG4kRlIMjTLqskWlAR8glJs8xsV24LeDIo8GPEy1TyY-1730025434-1.0.1.1-syugmK0TTJx6v9FvYKqd1tYihEx3ACtNCoxmy.0zwlsaWb6QLnMP7QLxtZp7.zGmf0t9LHXA81zG3YboOQbZdg; path=/; expires=Sun, 27-Oct-24 11:07:14 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=XZk0EXejH6cvljIPDi93bxPAV2ukUQb0S0Ioi1rRfAc-1730025434775-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d920cb1ce99185e-KIV'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:openai._base_client:HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sun, 27 Oct 2024 10:37:14 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-pvvjlwy70pm2cleblcu89ayi'), ('openai-processing-ms', '730'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '10000'), ('x-ratelimit-limit-tokens', '200000'), ('x-ratelimit-remaining-requests', '9999'), ('x-ratelimit-remaining-tokens', '199726'), ('x-ratelimit-reset-requests', '8.64s'), ('x-ratelimit-reset-tokens', '82ms'), ('x-request-id', 'req_3441b3ea17be7d21b776d79e52f3c809'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=XG4kRlIMjTLqskWlAR8glJs8xsV24LeDIo8GPEy1TyY-1730025434-1.0.1.1-syugmK0TTJx6v9FvYKqd1tYihEx3ACtNCoxmy.0zwlsaWb6QLnMP7QLxtZp7.zGmf0t9LHXA81zG3YboOQbZdg; path=/; expires=Sun, 27-Oct-24 11:07:14 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=XZk0EXejH6cvljIPDi93bxPAV2ukUQb0S0Ioi1rRfAc-1730025434775-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8d920cb1ce99185e-KIV'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+DEBUG:openai._base_client:request_id: req_3441b3ea17be7d21b776d79e52f3c809
+INFO:aiogram.event:Update id=131951245 is not handled. Duration 7390 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='C:\\Users\\MistixM\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'
+DEBUG:openai._base_client:Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You're language depends on chat's language. You are a summarizer who will summarize all the messages that comes from the Telegram chat. Please make the summaries short, but without loss of meaning. Also remember to summarize with the same language as the chat."}, {'role': 'user', 'content': 'Summarize the following conversation: \n\nmdevv said heeeymdevv said just got some messages for you guysmdevv said that\'s from our "telegram bot dev" chatmdevv said How are we planning on tracking user feedback post-launch?mdevv said We could set up an in-bot feedback form that automatically sends data to us. It\'s direct, and we’ll mdevv said Huh.. Good ideamdevv said And, promotion-wise, are we targeting primarily Telegram channels and groups?mdevv said Yes, Telegram groups for sure. Also, collaborations with influencers in tech and productivity.mdevv said Noted. Any budget updates on that?mdevv said I’m willing to scale it up if it’ll get resultsmdevv said We have a $50 starting budget, but I suggest we increase it once we see initial responses.'}], 'model': 'gpt-4o-mini'}}
+DEBUG:openai._base_client:Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+DEBUG:httpcore.connection:connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020EBB5E0970>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020EBA2DDFC0> server_hostname='api.openai.com' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020EBB5E06D0>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 27 Oct 2024 10:37:29 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-pvvjlwy70pm2cleblcu89ayi'), (b'openai-processing-ms', b'549'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'199726'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'82ms'), (b'x-request-id', b'req_119c3811087e33e04f029c050616efee'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=MTGDbJxTPrX3pEZToxbNh73eLy3OlEfRsTw70MDQygQ-1730025449-1.0.1.1-XVprMTHqkMLPLFvVE3uhsDP9c4ztzI5.3JvoqCIJDZL.v3d6Dvz9YKxkXvKw_fKJVwoNaMxg.Zknm2WU1p5a2w; path=/; expires=Sun, 27-Oct-24 11:07:29 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=kPVu5UHhXUhbtO68l1.pYstGU5XTGwo6DUvlnfwbPMA-1730025449182-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d920d0ced4c186a-KIV'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:openai._base_client:HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sun, 27 Oct 2024 10:37:29 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-pvvjlwy70pm2cleblcu89ayi'), ('openai-processing-ms', '549'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '10000'), ('x-ratelimit-limit-tokens', '200000'), ('x-ratelimit-remaining-requests', '9999'), ('x-ratelimit-remaining-tokens', '199726'), ('x-ratelimit-reset-requests', '8.64s'), ('x-ratelimit-reset-tokens', '82ms'), ('x-request-id', 'req_119c3811087e33e04f029c050616efee'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=MTGDbJxTPrX3pEZToxbNh73eLy3OlEfRsTw70MDQygQ-1730025449-1.0.1.1-XVprMTHqkMLPLFvVE3uhsDP9c4ztzI5.3JvoqCIJDZL.v3d6Dvz9YKxkXvKw_fKJVwoNaMxg.Zknm2WU1p5a2w; path=/; expires=Sun, 27-Oct-24 11:07:29 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=kPVu5UHhXUhbtO68l1.pYstGU5XTGwo6DUvlnfwbPMA-1730025449182-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8d920d0ced4c186a-KIV'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+DEBUG:openai._base_client:request_id: req_119c3811087e33e04f029c050616efee
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951247 is handled. Duration 625 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951248 is handled. Duration 250 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951246 is handled. Duration 61061 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='C:\\Users\\MistixM\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'
+DEBUG:openai._base_client:Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You're language depends on chat's language. You are a summarizer who will summarize all the messages that comes from the Telegram chat. Please make the summaries short, but without loss of meaning. Also remember to summarize with the same language as the chat."}, {'role': 'user', 'content': 'Summarize the following conversation: \n\nmdevv said just got some messages for you guysmdevv said that\'s from our "telegram bot dev" chatmdevv said How are we planning on tracking user feedback post-launch?mdevv said We could set up an in-bot feedback form that automatically sends data to us. It\'s direct, and we’ll mdevv said Huh.. Good ideamdevv said And, promotion-wise, are we targeting primarily Telegram channels and groups?mdevv said Yes, Telegram groups for sure. Also, collaborations with influencers in tech and productivity.mdevv said Noted. Any budget updates on that?mdevv said I’m willing to scale it up if it’ll get resultsmdevv said We have a $50 starting budget, but I suggest we increase it once we see initial responses.'}], 'model': 'gpt-4o-mini'}}
+DEBUG:openai._base_client:Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+DEBUG:httpcore.connection:connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020EBB5E1900>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020EBA2DDF40> server_hostname='api.openai.com' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020EBB5E1F60>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 27 Oct 2024 10:38:47 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-pvvjlwy70pm2cleblcu89ayi'), (b'openai-processing-ms', b'706'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'199730'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'81ms'), (b'x-request-id', b'req_76bc3ebbceec1b8d614c942789397581'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=3gXyzCJfWybpxerMwVjVnEQPDxj_4pXGgLT.U9GNr5w-1730025527-1.0.1.1-0HaW5U2.YZVO8YgKYMhJsQby3U_QMmYAVgT5j_bY7ROJC_wLQFVYkweqJHeb3IcpVY8u6UmwmYeaO5UyH2qLeA; path=/; expires=Sun, 27-Oct-24 11:08:47 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=0taANoBJdTjcZCjmWtH.jpNygpwGwfjGMDSEsP0d.Sk-1730025527676-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d920ef69982186c-KIV'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:openai._base_client:HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sun, 27 Oct 2024 10:38:47 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-pvvjlwy70pm2cleblcu89ayi'), ('openai-processing-ms', '706'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '10000'), ('x-ratelimit-limit-tokens', '200000'), ('x-ratelimit-remaining-requests', '9999'), ('x-ratelimit-remaining-tokens', '199730'), ('x-ratelimit-reset-requests', '8.64s'), ('x-ratelimit-reset-tokens', '81ms'), ('x-request-id', 'req_76bc3ebbceec1b8d614c942789397581'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=3gXyzCJfWybpxerMwVjVnEQPDxj_4pXGgLT.U9GNr5w-1730025527-1.0.1.1-0HaW5U2.YZVO8YgKYMhJsQby3U_QMmYAVgT5j_bY7ROJC_wLQFVYkweqJHeb3IcpVY8u6UmwmYeaO5UyH2qLeA; path=/; expires=Sun, 27-Oct-24 11:08:47 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=0taANoBJdTjcZCjmWtH.jpNygpwGwfjGMDSEsP0d.Sk-1730025527676-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8d920ef69982186c-KIV'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+DEBUG:openai._base_client:request_id: req_76bc3ebbceec1b8d614c942789397581
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951250 is handled. Duration 312 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.event:Update id=131951249 is not handled. Duration 41344 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951251 is handled. Duration 280 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='C:\\Users\\MistixM\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'
+DEBUG:openai._base_client:Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You're language depends on chat's language. You are a summarizer who will summarize all the messages that comes from the Telegram chat. Please make the summaries short, but without loss of meaning. Also remember to summarize with the same language as the chat."}, {'role': 'user', 'content': 'Summarize the following conversation: \n\nmdevv said heeeymdevv said just got some messages for you guysmdevv said that\'s from our "telegram bot dev" chatmdevv said How are we planning on tracking user feedback post-launch?mdevv said We could set up an in-bot feedback form that automatically sends data to us. It\'s direct, and we’ll mdevv said Huh.. Good ideamdevv said And, promotion-wise, are we targeting primarily Telegram channels and groups?mdevv said Yes, Telegram groups for sure. Also, collaborations with influencers in tech and productivity.mdevv said Noted. Any budget updates on that?mdevv said I’m willing to scale it up if it’ll get resultsmdevv said We have a $50 starting budget, but I suggest we increase it once we see initial responses.'}], 'model': 'gpt-4o-mini'}}
+DEBUG:openai._base_client:Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+DEBUG:httpcore.connection:connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028AB57DAA10>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x0000028AB44AA240> server_hostname='api.openai.com' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028AB57DAB30>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 27 Oct 2024 10:39:38 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-pvvjlwy70pm2cleblcu89ayi'), (b'openai-processing-ms', b'694'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'199726'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'82ms'), (b'x-request-id', b'req_07daff77106c328a0dd1f0266ccb408a'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=VPS_ijV2bs1wjclZBgN9I2FjVA3y8ACCvrwnagUIxjo-1730025578-1.0.1.1-RvaveK_SN7cjujOk8WD5RbKivNfdV7zby.Ef_ClaphLXu1rXV1OwW1mBrA_CJ3DdRvsOkDrdLY3C.pNf1OaXDg; path=/; expires=Sun, 27-Oct-24 11:09:38 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=.dfuQmJfCWmdDps4XFJtM7gzk3dLokVLPp8aLlNpfIE-1730025578381-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d9210338aac72c3-KIV'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:openai._base_client:HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sun, 27 Oct 2024 10:39:38 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-pvvjlwy70pm2cleblcu89ayi'), ('openai-processing-ms', '694'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '10000'), ('x-ratelimit-limit-tokens', '200000'), ('x-ratelimit-remaining-requests', '9999'), ('x-ratelimit-remaining-tokens', '199726'), ('x-ratelimit-reset-requests', '8.64s'), ('x-ratelimit-reset-tokens', '82ms'), ('x-request-id', 'req_07daff77106c328a0dd1f0266ccb408a'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=VPS_ijV2bs1wjclZBgN9I2FjVA3y8ACCvrwnagUIxjo-1730025578-1.0.1.1-RvaveK_SN7cjujOk8WD5RbKivNfdV7zby.Ef_ClaphLXu1rXV1OwW1mBrA_CJ3DdRvsOkDrdLY3C.pNf1OaXDg; path=/; expires=Sun, 27-Oct-24 11:09:38 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=.dfuQmJfCWmdDps4XFJtM7gzk3dLokVLPp8aLlNpfIE-1730025578381-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8d9210338aac72c3-KIV'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+DEBUG:openai._base_client:request_id: req_07daff77106c328a0dd1f0266ccb408a
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951253 is handled. Duration 655 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.event:Update id=131951252 is not handled. Duration 50640 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='C:\\Users\\MistixM\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'
+DEBUG:openai._base_client:Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You're language depends on chat's language. You are a summarizer who will summarize all the messages that comes from the Telegram chat. Please make the summaries short, but without loss of meaning. Also remember to summarize with the same language as the chat."}, {'role': 'user', 'content': 'Summarize the following conversation: \n\nmdevv said heeeymdevv said just got some messages for you guysmdevv said that\'s from our "telegram bot dev" chatmdevv said How are we planning on tracking user feedback post-launch?mdevv said We could set up an in-bot feedback form that automatically sends data to us. It\'s direct, and we’ll mdevv said Huh.. Good ideamdevv said And, promotion-wise, are we targeting primarily Telegram channels and groups?mdevv said Yes, Telegram groups for sure. Also, collaborations with influencers in tech and productivity.mdevv said Noted. Any budget updates on that?mdevv said I’m willing to scale it up if it’ll get resultsmdevv said We have a $50 starting budget, but I suggest we increase it once we see initial responses.'}], 'model': 'gpt-4o-mini'}}
+DEBUG:openai._base_client:Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+DEBUG:httpcore.connection:connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002BD6D9A4730>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BD6C6FA040> server_hostname='api.openai.com' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002BD6D9A4490>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 27 Oct 2024 10:40:33 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-pvvjlwy70pm2cleblcu89ayi'), (b'openai-processing-ms', b'876'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'199726'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'82ms'), (b'x-request-id', b'req_b11aafb6397c42e0becc3cc705078205'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=ETmoVB29Ww19.uEwC5YRjpMkYcMNFwJ5ax_gP1RyxrU-1730025633-1.0.1.1-Bi7gryEHixhBjROlp7.Ov8lrUPWGfJPOLiB1RNEwpyZ4IQTOEhkHWJbtfiUr.3iOG1.TEosBrdJLkRQLbkZSCg; path=/; expires=Sun, 27-Oct-24 11:10:33 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=XDO9e2Dh2MAFX1OL6zgOXkVHHpBAgYZqMpFaenxh61o-1730025633640-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d92118bcfaa72c5-KIV'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:openai._base_client:HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sun, 27 Oct 2024 10:40:33 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-pvvjlwy70pm2cleblcu89ayi'), ('openai-processing-ms', '876'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '10000'), ('x-ratelimit-limit-tokens', '200000'), ('x-ratelimit-remaining-requests', '9999'), ('x-ratelimit-remaining-tokens', '199726'), ('x-ratelimit-reset-requests', '8.64s'), ('x-ratelimit-reset-tokens', '82ms'), ('x-request-id', 'req_b11aafb6397c42e0becc3cc705078205'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=ETmoVB29Ww19.uEwC5YRjpMkYcMNFwJ5ax_gP1RyxrU-1730025633-1.0.1.1-Bi7gryEHixhBjROlp7.Ov8lrUPWGfJPOLiB1RNEwpyZ4IQTOEhkHWJbtfiUr.3iOG1.TEosBrdJLkRQLbkZSCg; path=/; expires=Sun, 27-Oct-24 11:10:33 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=XDO9e2Dh2MAFX1OL6zgOXkVHHpBAgYZqMpFaenxh61o-1730025633640-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8d92118bcfaa72c5-KIV'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+DEBUG:openai._base_client:request_id: req_b11aafb6397c42e0becc3cc705078205
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+INFO:aiogram.event:Update id=131951254 is handled. Duration 61421 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='C:\\Users\\MistixM\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'
+DEBUG:openai._base_client:Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You're language depends on chat's language. You are a summarizer who will summarize all the messages that comes from the Telegram chat. Please make the summaries short, but without loss of meaning. Also remember to summarize with the same language as the chat."}, {'role': 'user', 'content': 'Summarize the following conversation: \n\nmdevv said heeeymdevv said just got some messages for you guysmdevv said that\'s from our "telegram bot dev" chatmdevv said How are we planning on tracking user feedback post-launch?mdevv said We could set up an in-bot feedback form that automatically sends data to us. It\'s direct, and we’ll mdevv said Huh.. Good ideamdevv said And, promotion-wise, are we targeting primarily Telegram channels and groups?mdevv said Yes, Telegram groups for sure. Also, collaborations with influencers in tech and productivity.mdevv said Noted. Any budget updates on that?mdevv said I’m willing to scale it up if it’ll get resultsmdevv said We have a $50 starting budget, but I suggest we increase it once we see initial responses.'}], 'model': 'gpt-4o-mini'}}
+DEBUG:openai._base_client:Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+DEBUG:httpcore.connection:connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000270FE5F0C70>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x00000270FD2E9FC0> server_hostname='api.openai.com' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000270FE5F09D0>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 27 Oct 2024 10:42:32 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-pvvjlwy70pm2cleblcu89ayi'), (b'openai-processing-ms', b'664'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'199726'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'82ms'), (b'x-request-id', b'req_e7d01cad6f317f307343e81e7b0bfad7'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=_IDIuuKaHVFSVoXNfivtSvqFM6pODW4Swtt0Lr5m28o-1730025752-1.0.1.1-qPRBb9PJlrQiHhUqT32ZNmDq4PR9ZrWxPPXqN7atQr0vMyTN_9bf_WlgVEUZxHMjY70FwMFBH91ebk7fqbP7aw; path=/; expires=Sun, 27-Oct-24 11:12:32 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=tDzCEzOGfP1Q7mIDAl9sz_r0QyxXbquz_t4UPM.vNnY-1730025752848-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d92147609eb1864-KIV'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:openai._base_client:HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sun, 27 Oct 2024 10:42:32 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-pvvjlwy70pm2cleblcu89ayi'), ('openai-processing-ms', '664'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '10000'), ('x-ratelimit-limit-tokens', '200000'), ('x-ratelimit-remaining-requests', '9999'), ('x-ratelimit-remaining-tokens', '199726'), ('x-ratelimit-reset-requests', '8.64s'), ('x-ratelimit-reset-tokens', '82ms'), ('x-request-id', 'req_e7d01cad6f317f307343e81e7b0bfad7'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=_IDIuuKaHVFSVoXNfivtSvqFM6pODW4Swtt0Lr5m28o-1730025752-1.0.1.1-qPRBb9PJlrQiHhUqT32ZNmDq4PR9ZrWxPPXqN7atQr0vMyTN_9bf_WlgVEUZxHMjY70FwMFBH91ebk7fqbP7aw; path=/; expires=Sun, 27-Oct-24 11:12:32 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=tDzCEzOGfP1Q7mIDAl9sz_r0QyxXbquz_t4UPM.vNnY-1730025752848-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8d92147609eb1864-KIV'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+DEBUG:openai._base_client:request_id: req_e7d01cad6f317f307343e81e7b0bfad7
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:aiogram.event:Update id=131951255 is not handled. Duration 34266 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951256 is not handled. Duration 61 ms by bot id=7082522777
+ERROR:aiogram.event:Cause exception while process update id=131951256 by bot id=7082522777
+AttributeError: 'NoneType' object has no attribute 'group'
+Traceback (most recent call last):
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "D:\Mihasik_515\Python\summarizer\app\handlers\summarize.py", line 63, in summarize_cmd
+    limit = int(fltr.group(1))
+AttributeError: 'NoneType' object has no attribute 'group'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='C:\\Users\\MistixM\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'
+DEBUG:openai._base_client:Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You're language depends on chat's language. You are a summarizer who will summarize all the messages that comes from the Telegram chat. Please make the summaries short, but without loss of meaning. Also remember to summarize with the same language as the chat."}, {'role': 'user', 'content': 'Summarize the following conversation: \n\nmdevv said heeeymdevv said just got some messages for you guysmdevv said that\'s from our "telegram bot dev" chatmdevv said How are we planning on tracking user feedback post-launch?mdevv said We could set up an in-bot feedback form that automatically sends data to us. It\'s direct, and we’ll mdevv said Huh.. Good ideamdevv said And, promotion-wise, are we targeting primarily Telegram channels and groups?mdevv said Yes, Telegram groups for sure. Also, collaborations with influencers in tech and productivity.mdevv said Noted. Any budget updates on that?mdevv said I’m willing to scale it up if it’ll get resultsmdevv said We have a $50 starting budget, but I suggest we increase it once we see initial responses.'}], 'model': 'gpt-4o-mini'}}
+DEBUG:openai._base_client:Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+DEBUG:httpcore.connection:connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028170C4C490>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x000002816F99A0C0> server_hostname='api.openai.com' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028170C4C1F0>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 27 Oct 2024 10:44:17 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-pvvjlwy70pm2cleblcu89ayi'), (b'openai-processing-ms', b'591'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'199726'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'82ms'), (b'x-request-id', b'req_5c3b0ca0bfd34192183ac0e753ae9509'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=wCuwGtFVJBtJsoNI6NxgkXfVnpmkrGlRzuFGDOHo3GM-1730025857-1.0.1.1-Zgal1rar0cLFavLCYYB5ueQmZTWQ3f_YBAca98y_OV_0iEIrDIW.EBLIXoMTI4haRYo7Bl1UKxFRCoUQho1Fzg; path=/; expires=Sun, 27-Oct-24 11:14:17 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=XSbwGB8C4TYACwKy1gUdH_iiEtpc25lQdmOPbn_A4RY-1730025857973-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d921707ad2b1862-KIV'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:openai._base_client:HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sun, 27 Oct 2024 10:44:17 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-pvvjlwy70pm2cleblcu89ayi'), ('openai-processing-ms', '591'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '10000'), ('x-ratelimit-limit-tokens', '200000'), ('x-ratelimit-remaining-requests', '9999'), ('x-ratelimit-remaining-tokens', '199726'), ('x-ratelimit-reset-requests', '8.64s'), ('x-ratelimit-reset-tokens', '82ms'), ('x-request-id', 'req_5c3b0ca0bfd34192183ac0e753ae9509'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=wCuwGtFVJBtJsoNI6NxgkXfVnpmkrGlRzuFGDOHo3GM-1730025857-1.0.1.1-Zgal1rar0cLFavLCYYB5ueQmZTWQ3f_YBAca98y_OV_0iEIrDIW.EBLIXoMTI4haRYo7Bl1UKxFRCoUQho1Fzg; path=/; expires=Sun, 27-Oct-24 11:14:17 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=XSbwGB8C4TYACwKy1gUdH_iiEtpc25lQdmOPbn_A4RY-1730025857973-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8d921707ad2b1862-KIV'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+DEBUG:openai._base_client:request_id: req_5c3b0ca0bfd34192183ac0e753ae9509
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+INFO:aiogram.event:Update id=131951257 is handled. Duration 61297 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951258 is handled. Duration 297 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951259 is handled. Duration 186 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951260 is handled. Duration 265 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951261 is handled. Duration 140 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951262 is handled. Duration 188 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951263 is handled. Duration 327 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951264 is handled. Duration 188 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951265 is handled. Duration 250 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951266 is handled. Duration 327 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+WARNING:root:File does not exist. Delete from database only
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "DELETE /chat_ids/-1002069796414.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951267 is handled. Duration 77 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002069796414.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951268 is handled. Duration 77 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+INFO:aiogram.event:Update id=131951269 is not handled. Duration 0 ms by bot id=7082522777
+ERROR:aiogram.event:Cause exception while process update id=131951269 by bot id=7082522777
+TypeError: Bot.send_message() missing 1 required positional argument: 'text'
+Traceback (most recent call last):
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "D:\Mihasik_515\Python\summarizer\app\handlers\gift.py", line 71, in handle_gift
+    await bot.send_message("Something went wrong..")
+TypeError: Bot.send_message() missing 1 required positional argument: 'text'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+INFO:aiogram.event:Update id=131951270 is handled. Duration 327 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /users/7041845479.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /users/1266917712.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /users/1266917712.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids.json HTTP/11" 200 52
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+INFO:aiogram.event:Update id=131951271 is not handled. Duration 1016 ms by bot id=7082522777
+ERROR:aiogram.event:Cause exception while process update id=131951271 by bot id=7082522777
+TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 26
+Traceback (most recent call last):
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "D:\Mihasik_515\Python\summarizer\app\handlers\gift.py", line 52, in handle_gift
+    await bot.send_message(chat, f"🤩 Congratulations to @{user.username}! Now the chat has a VIP status", parse_mode='markdown')
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\bot.py", line 2917, in send_message
+    return await self(call, request_timeout=request_timeout)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 26
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+INFO:aiogram.event:Update id=131951272 is handled. Duration 281 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+INFO:aiogram.event:Update id=131951273 is handled. Duration 250 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 293
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 63
+INFO:aiogram.event:Update id=131951274 is handled. Duration 188 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /users/7041845479.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /users/7041845479.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /users/7041845479.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids.json HTTP/11" 200 52
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+INFO:aiogram.event:Update id=131951275 is not handled. Duration 1000 ms by bot id=7082522777
+ERROR:aiogram.event:Cause exception while process update id=131951275 by bot id=7082522777
+TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 26
+Traceback (most recent call last):
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "D:\Mihasik_515\Python\summarizer\app\handlers\gift.py", line 52, in handle_gift
+    await bot.send_message(chat, f"🤩 Congratulations to @{user.username}! Now the chat has a VIP status", parse_mode='markdown')
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\bot.py", line 2917, in send_message
+    return await self(call, request_timeout=request_timeout)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 26
+DEBUG:urllib3.connectionpool:Resetting dropped connection: summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "DELETE /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951276 is handled. Duration 577 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951277 is handled. Duration 77 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951278 is handled. Duration 327 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 126
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951280 is handled. Duration 171 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 126
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+INFO:aiogram.event:Update id=131951279 is not handled. Duration 1125 ms by bot id=7082522777
+ERROR:aiogram.event:Cause exception while process update id=131951279 by bot id=7082522777
+TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 26
+Traceback (most recent call last):
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "D:\Mihasik_515\Python\summarizer\app\handlers\start.py", line 82, in handle_bot_added
+    await bot.send_message(update.chat.id,
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\bot.py", line 2917, in send_message
+    return await self(call, request_timeout=request_timeout)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 26
+INFO:aiogram.event:Update id=131951281 is handled. Duration 625 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 356
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 126
+WARNING:root:File does not exist. Delete from database only
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "DELETE /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951282 is handled. Duration 62 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951283 is handled. Duration 77 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 126
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 126
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951285 is handled. Duration 172 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951284 is not handled. Duration 953 ms by bot id=7082522777
+ERROR:aiogram.event:Cause exception while process update id=131951284 by bot id=7082522777
+TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 26
+Traceback (most recent call last):
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "D:\Mihasik_515\Python\summarizer\app\handlers\start.py", line 85, in handle_bot_added
+    await bot.send_message(update.chat.id,
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\bot.py", line 2917, in send_message
+    return await self(call, request_timeout=request_timeout)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 26
+INFO:aiogram.event:Update id=131951286 is handled. Duration 391 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 356
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 126
+WARNING:root:File does not exist. Delete from database only
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "DELETE /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951287 is handled. Duration 77 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951288 is handled. Duration 79 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 126
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 126
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+INFO:aiogram.event:Update id=131951289 is not handled. Duration 500 ms by bot id=7082522777
+ERROR:aiogram.event:Cause exception while process update id=131951289 by bot id=7082522777
+TypeError: 'in <string>' requires string as left operand, not list
+Traceback (most recent call last):
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\MistixM\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "D:\Mihasik_515\Python\summarizer\app\handlers\start.py", line 82, in handle_bot_added
+    if ['_', "*", "["] in username:
+TypeError: 'in <string>' requires string as left operand, not list
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 34
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 34
+INFO:aiogram.event:Update id=131951290 is handled. Duration 297 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951291 is handled. Duration 484 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 356
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 126
+WARNING:root:File does not exist. Delete from database only
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "DELETE /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951292 is handled. Duration 62 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951293 is handled. Duration 77 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 126
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 13
+INFO:aiogram.event:Update id=131951295 is handled. Duration 155 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 126
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+INFO:aiogram.event:Update id=131951294 is handled. Duration 969 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951296 is handled. Duration 640 ms by bot id=7082522777
+INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:root:Bot stopped
+INFO:root:Bot started
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiogram.dispatcher:Start polling
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users.json HTTP/11" 200 356
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1087968824.json HTTP/11" 200 68
+INFO:aiogram.dispatcher:Run polling for bot @sumarizeebot id=7082522777 - 'Sumarizer'
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 126
+INFO:aiogram.event:Update id=131951297 is handled. Duration 250 ms by bot id=7082522777
+WARNING:root:File does not exist. Delete from database only
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "DELETE /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951298 is handled. Duration 62 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951299 is handled. Duration 77 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 126
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/7041845479.json HTTP/11" 200 126
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951301 is handled. Duration 125 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951300 is handled. Duration 702 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951302 is handled. Duration 328 ms by bot id=7082522777
+WARNING:root:File does not exist. Delete from database only
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "DELETE /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951303 is handled. Duration 62 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+INFO:aiogram.event:Update id=131951304 is handled. Duration 77 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951305 is handled. Duration 234 ms by bot id=7082522777
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 4
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /users/1266917712.json HTTP/11" 200 119
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "PATCH /chat_ids/-1002433982261.json?print=silent HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+DEBUG:urllib3.connectionpool:https://summarizer-e7c00-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /chat_ids/-1002433982261.json HTTP/11" 200 33
+INFO:aiogram.event:Update id=131951307 is handled. Duration 515 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951306 is handled. Duration 1077 ms by bot id=7082522777
+INFO:aiogram.event:Update id=131951308 is handled. Duration 750 ms by bot id=7082522777
 INFO:aiogram.dispatcher:Polling stopped
 INFO:aiogram.dispatcher:Polling stopped for bot @sumarizeebot id=7082522777 - 'Sumarizer'
 INFO:root:Bot stopped

@@ -107,11 +107,12 @@ async def check_vip_status(bot: Bot):
                     update_user_data(user, "reminded", True)
                     await bot.send_message(user, f"⚠️ Hello {user_chat.first_name}. Your VIP status will expire in {remaining_time.days} days. You can renew it after expiration again! 😊")
         
-        debug_file = FSInputFile('bot.log')
-        await bot.send_document(ADMIN, debug_file, caption="✅ <b>Hello! Here's your daily log. Don't forget to clear and review it from time to time</b>", parse_mode='HTML')
 
         # 24 hours
         await asyncio.sleep(86400)
+
+        debug_file = FSInputFile('bot.log')
+        await bot.send_document(ADMIN, debug_file, caption="✅ <b>Hello! Here's your daily log. Don't forget to clear and review it from time to time</b>", parse_mode='HTML')
 
 if __name__ == '__main__':
     # Run bot

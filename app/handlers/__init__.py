@@ -9,6 +9,7 @@ from .subscription import sub_router
 from .support import support_router
 from .installation import installation_router
 from .debug import debug_router
+from .gift import gift_router
 
 # Fill out the list that will be unpacked in dispatcher
 routers_list = [
@@ -19,6 +20,7 @@ routers_list = [
     support_router,
     installation_router,
     debug_router,
+    gift_router,
     
     # Blocking router below
     ping_router,

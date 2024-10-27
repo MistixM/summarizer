@@ -14,7 +14,8 @@ async def handle_command(msg: types.Message, bot: Bot):
     if not chat_id == ADMIN:
         await bot.send_message(chat_id,
                                FOUR_O_FOUR,
-                               parse_mode='HTML')
+                               parse_mode='HTML',
+                               disable_web_page_preview=True)
         return
 
     debug_file = FSInputFile('bot.log')

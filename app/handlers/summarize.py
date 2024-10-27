@@ -54,11 +54,7 @@ async def summarize_cmd(msg: types.Message, bot: Bot):
                                parse_mode='HTML',
                                disable_web_page_preview=True)
         return
-    
-    # If the chat is in cooldown, notify and return request
-    if command_flags.get(chat_id, False):
-        await bot.send_message(chat_id, BOT_COOLDOWN)
-        return
+
 
     # Create filter for the command (to extract limit from the command)
     fltr = re.search(r'/sum (\d+)', msg.text)
@@ -67,20 +63,27 @@ async def summarize_cmd(msg: types.Message, bot: Bot):
     limit = int(fltr.group(1)) if fltr else 300
 
     # Handle other possible human mistakes
-    if limit < 0:
-        await bot.send_message(chat_id, f"⚠️ Limit must be a positive number.")
-        return
-    
+    # if limit < 0:
+    #     await bot.send_message(chat_id, f"⚠️ Limit must be a positive number.")
+    #     return
+    # else:
+    #     print(limit)
+    #     print(type(limit))
+        
     if not limit >= 10:
         await bot.send_message(chat_id, f"⚠️ Limit must be at least 10 messages.")
         return
-
+    
+    # If the chat is in cooldown, notify and return request
+    if command_flags.get(chat_id, False):
+        await bot.send_message(chat_id, BOT_COOLDOWN)
+        return
+    
     if not chat_data['vip']:
         # Get messages from the specified chat id
         messages = chat_messages.get(chat_id, [])
     else:
         messages = await decrypt_messages(chat_id)
-        print(messages)
 
     # If there are enough messages, summarize them and send to the chat id
     if messages:
@@ -111,7 +114,7 @@ async def summarize_cmd(msg: types.Message, bot: Bot):
 # Important. This router is blocking, so be careful with changes
 # This handler will write each message that comes from the chat
 @summarize_router.message()
-async def handle_messages(msg: types.Message):
+async def handle_messages(msg: types.Message, bot: Bot):
     chat_id = msg.chat.id
 
     if not check_chat(chat_id):
@@ -132,27 +135,3 @@ async def handle_messages(msg: types.Message):
 
         if vip:
             await save_encrypted_messages(chat_id, chat_messages)
-
-# def save_encrypted_messages(chat_id):
-#     filename = os.path.join(VIP_FOLDER, f"{chat_id}.json")
-
-#     # Retreive chat messages and encrypt them
-#     data = json.dumps(chat_messages[chat_id])
-#     encrypted_data = cipher.encrypt(data.encode())
-
-#     with open(filename, 'wb') as file:
-#         file.write(encrypted_data)
-    
-
-# def decrypt_messages(chat_id):
-#     filename = os.path.join(VIP_FOLDER, f'{chat_id}.json')
-
-#     if not os.path.exists(filename):
-#         return None
-
-#     with open(filename, 'rb') as file:
-#         encrypted_data = file.read()
-    
-#     decrypted_data = cipher.decrypt(encrypted_data)
-#     messages = json.loads(decrypted_data.decode())
-#     return messages
