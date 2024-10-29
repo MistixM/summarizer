@@ -87,8 +87,8 @@ async def successful_payment(msg: types.Message):
     chat_id = msg.chat.id
 
     # Refund only with test purpose. On production we don't want to refund stars
-    await msg.bot.refund_star_payment(chat_id,
-                                      msg.successful_payment.telegram_payment_charge_id)
+    # await msg.bot.refund_star_payment(chat_id,
+    #                                   msg.successful_payment.telegram_payment_charge_id)
     
     # Generate expiration date (month)
     expiration_date = datetime.datetime.now() + datetime.timedelta(days=31)
