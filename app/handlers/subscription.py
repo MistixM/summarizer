@@ -1,4 +1,10 @@
 import datetime
+import aiohttp
+import uuid
+import hashlib
+import json
+import base64
+import asyncio
 
 # Import aiogram dependencies
 from aiogram import Bot, F, types, Router
@@ -9,15 +15,23 @@ from aiogram.exceptions import TelegramForbiddenError
 # Import app dependencies (wraps, keyboards, databases)
 from app.constants.wrap import (SUBSCRIPTION_DESCRIPTION, SUBSCRIPTION_SUCCESS, 
                                 SUBSCRIOTION_HAVE, SUBSCRIPTION_PRICE,
-                                SUBSCRIPTION_BUTTON)
+                                SUBSCRIPTION_BUTTON, SUBSCRIPTION_PRICE_DOLLAR)
 
-from app.keyboards.inline import payment_methods
+from app.keyboards.inline import payment_methods, crypto_invoice
+
 from app.database.db import (update_user_data, check_user_data, 
                              get_all_chats, check_chat_data, 
                              update_chat_data, remove_chat)
 
+import configparser
+
 # Create separate router
 sub_router = Router()
+
+config = configparser.ConfigParser()
+config.read('./app/constants/config.ini')
+
+print(config['Bot']['TOKEN'])
 
 # Handle subscription command
 @sub_router.message(Command(commands=['subscription']))
@@ -36,7 +50,8 @@ async def subscription(msg: types.Message, bot: Bot):
     # If user requested subscription not in the DM
     else:
         await bot.send_message(chat_id,
-                               f"⭐ Make your chat more free with subscription! To continue please request subscription in the bot")
+                            f"⭐ Make your chat more free with subscription! To continue please request subscription in the bot")
+
 
 # Router callback handler        
 @sub_router.callback_query(lambda d: d.data)
@@ -70,11 +85,27 @@ async def handle_payment_callbacks(callback: CallbackQuery):
                         )
         
     elif method[0] == "crypto":
-        # TO-DO: Implement invoice generation via Cryptomus API or other crypto supporters
-        # Now it's unavaliable so notify abot that to the user
+        # Create invoice
+        invoice_data = await make_crypto_request(
+            url="https://api.cryptomus.com/v1/payment",
+            invoice_data={
+                "amount": str(round(SUBSCRIPTION_PRICE_DOLLAR)),
+                "currency": "USD",
+                "order_id": str(uuid.uuid4())
+            },
+        )
+
+        # Create invoice checker task
+        asyncio.create_task(
+            check_invoice_status(invoice_data['result']['uuid'],
+                                 message=callback.message)
+        )
+
+        # Send message to the user with the invoice ID and URL
         await callback.bot.send_message(chat_id,
-                                        f"👀 This payment method is in development\n\nContact: https://t.me/+GVq4lXRADWM4MWRi",
-                                        disable_web_page_preview=True)
+                                        f"💸 Bot uses Cryptomus as a crypto payment system. Please use the following link to continue payment.\n\nYour invoice ID: <code>{invoice_data['result']['uuid']}</code>",
+                                        parse_mode='HTML',
+                                        reply_markup=crypto_invoice(invoice_data['result']['url']))
 
 # Pre-checkout. Here, if necessary, you can check if product exist (i think, not in project case)
 @sub_router.pre_checkout_query()
@@ -84,12 +115,51 @@ async def process_pre_checkout_query(query: PreCheckoutQuery, bot: Bot):
 # Successful payment callback handler
 @sub_router.message(F.successful_payment)
 async def successful_payment(msg: types.Message):
-    chat_id = msg.chat.id
+    await send_successful_message(msg)
 
     # Refund only with test purpose. On production we don't want to refund stars
     # await msg.bot.refund_star_payment(chat_id,
     #                                   msg.successful_payment.telegram_payment_charge_id)
     
+# A function that will create crypto request to cryptomus system
+async def make_crypto_request(url: str, invoice_data: dict):
+    encoded_data = base64.b64encode(
+        json.dumps(invoice_data).encode('utf-8')
+    ).decode('utf-8')
+    signature = hashlib.md5(f"{encoded_data}{config['Bot']['CRYPTOMUS_TOKEN']}".encode('utf-8')).hexdigest()
+
+    async with aiohttp.ClientSession(headers={
+        "merchant": config['Bot']['CRYPTOMUS_MERCHANT'],
+        "sign": signature,
+    }) as session:
+        async with session.post(url=url, json=invoice_data) as response:
+            if not response.ok:
+                return response.reason
+            
+            return await response.json()
+
+# A function that will check invoice status in while loop
+async def check_invoice_status(id: str, message):
+    while True:
+        try:
+            invoice_data = await make_crypto_request(
+                url="https://api.cryptomus.com/v1/payment/info",
+                invoice_data={"uuid": id}
+            )
+        except Exception as e:
+            print(f"An error occured while invoice check: {e}")
+            break
+
+        if invoice_data['result']['payment_status'] in ("paid", "paid_over"):
+            await send_successful_message(message) 
+            break
+
+        await asyncio.sleep(10)
+
+# Will send successful message to the specified chat
+async def send_successful_message(msg) -> None:
+    chat_id = msg.chat.id
+
     # Generate expiration date (month)
     expiration_date = datetime.datetime.now() + datetime.timedelta(days=31)
 
@@ -138,4 +208,3 @@ async def successful_payment(msg: types.Message):
             else:
                 print(f"An unexpected error occured: {e}")
                 continue
-        

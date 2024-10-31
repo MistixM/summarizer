@@ -18,3 +18,11 @@ def payment_methods() -> InlineKeyboardMarkup:
     ])
     
     return kb
+
+# Create inline keyboard for crypto invoice
+def crypto_invoice(invoice_url) -> InlineKeyboardMarkup:
+    kb = InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text="Pay", url=invoice_url)]
+    ])
+
+    return kb

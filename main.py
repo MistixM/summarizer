@@ -24,12 +24,12 @@ import logging
 dp = Dispatcher()
 dp.include_routers(*routers_list)
 
-logging.basicConfig(level=logging.DEBUG,
-                    format="{asctime} - {levelname} - {message}",
-                    style="{",
-                    filename='bot.log',
-                    encoding='utf-8',
-                    datefmt="%d.%m.%Y %H:%M")
+# logging.basicConfig(level=logging.DEBUG,
+#                     format="{asctime} - {levelname} - {message}",
+#                     style="{",
+#                     filename='bot.log',
+#                     encoding='utf-8',
+#                     datefmt="%d.%m.%Y %H:%M")
 
 async def main():
     # Create a session for Graspil API (statistics)

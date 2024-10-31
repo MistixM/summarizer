@@ -15,7 +15,6 @@ from app.database.db import (register_user,
 
 import os
 import logging
-import re
 
 # Create separate router
 start_router = Router()

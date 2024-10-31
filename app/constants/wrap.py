@@ -15,15 +15,15 @@ DEBUG_BUTTON = 'ℹ️ Debug'
 # Bot settings
 ADMIN = 1266917712
 LOCAL_TEST = False
-SUBSCRIPTION_PRICE = 320
-SUBSCRIPTION_PRICE_DOLLAR = 4.99
+SUBSCRIPTION_PRICE = 140
+SUBSCRIPTION_PRICE_DOLLAR = 1.99
 ENCRYPTION_KEY = b'Rdai_1bI7z8_a6rmHKvqinVLpO88NKmjgHkFMf8g-ho='
 VIP_FOLDER = 'vip_chats'
 
 # Group messages
 GROUP_START = f"✅ Hi everyone! Thanks for adding me here, I'm so happy to be part of your chat! 😊\n\nMy name's Summarizer. I'm here to help you to summarize messages in the chat, so you can understand what's going on here. Talk to each other and then use /sum [message limit] command to begin.\n\n🗂 <a href='{FEATURES_LINK}'>Read about my features and commands</a>\n<a href='{SUPPORT_LINK}'>📣 Support channel</a>"
 NO_MESSAGE_SUMMARIZE = "👀 There's no message to summarize.. Let's talk!"
-BOT_COOLDOWN = "🤔 Please wait some time before continuing"
+BOT_COOLDOWN = "🤔 Please wait some time before continuing (you can buy /subscription to reduce delay!)"
 
 # DM messages
 DM_START = f"👨‍💻 Hey there! My name's Summarizer. I'm here to help you to summarize messages in the chat, so you can understand what's going on there.\n\n✅ To continue, please add me to the chat with admin rights. You can do this by using /install command or by hand.\n\n🗂 <a href='{FEATURES_LINK}'>Read about my features and commands</a>\n📣 <a href='{SUPPORT_LINK}'>Support channel</a>\n📑<a href='{USER_AGREEMENT_LINK}'> User Agreement</a>"

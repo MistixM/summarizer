@@ -19,18 +19,13 @@ from configparser import ConfigParser
 # Other
 import re
 import asyncio
-import os
-import json
 
 # Create a unique router for this handler
 summarize_router = Router()
 
 # Key for encryption
-cipher = Fernet(ENCRYPTION_KEY)
+cipher = Fernet(ENCRYPTION_KEY) # Migrate encryption key to the config file instead of wrap. DO THIS WITH CAUTION ON TEST ENV!
 
-# Directory for VIP chat files
-# VIP_FOLDER = 'vip_chats'
-# os.makedirs(VIP_FOLDER, exist_ok=True)
 
 # Create dicts: messages and flags
 chat_messages = {} # will be erased when the server is shut down
@@ -61,14 +56,6 @@ async def summarize_cmd(msg: types.Message, bot: Bot):
 
     # Define limit from the command
     limit = int(fltr.group(1)) if fltr else 300
-
-    # Handle other possible human mistakes
-    # if limit < 0:
-    #     await bot.send_message(chat_id, f"⚠️ Limit must be a positive number.")
-    #     return
-    # else:
-    #     print(limit)
-    #     print(type(limit))
         
     if not limit >= 10:
         await bot.send_message(chat_id, f"⚠️ Limit must be at least 10 messages.")

@@ -5,9 +5,8 @@ from app.constants.wrap import (ADMIN, SUBSCRIPTION_BUTTON,
 
 def menu_keyboard(user_id):
     keyboard = [
-        [KeyboardButton(text=INSTALLATION_BUTTON)],
-        [KeyboardButton(text=SUBSCRIPTION_BUTTON), KeyboardButton(text=FAQ_BUTTON)],
-        [KeyboardButton(text=SUPPORT_BUTTON)]
+        [KeyboardButton(text=INSTALLATION_BUTTON), KeyboardButton(text=SUBSCRIPTION_BUTTON)],
+        [KeyboardButton(text=FAQ_BUTTON), KeyboardButton(text=SUPPORT_BUTTON)]
     ]
 
     if user_id == ADMIN:

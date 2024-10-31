@@ -8,18 +8,42 @@ from aiogram.fsm.state import StatesGroup, State
 
 # Import app and texts
 from app.constants.wrap import ADMIN, FOUR_O_FOUR, POST_BUTTON
-from app.database.db import get_all_chats
+from app.database.db import get_all_chats, get_all_users
 
 import re
+import asyncio
 
 # Create separate router
 post_router = Router()
 
 class PostState(StatesGroup):
     waiting_post = State()
+    waiting_user_post = State()
 
 # Limit set by default (None)
 limit = None
+
+@post_router.message(Command(commands='user_post'))
+async def send_user_post(msg: types.Message, bot: Bot, state: FSMContext):
+    global limit
+    
+    chat_id = msg.chat.id
+    if not chat_id == ADMIN:
+        await bot.send_message(msg.chat.id,
+                        FOUR_O_FOUR,
+                        parse_mode='HTML',
+                        disable_web_page_preview=True)
+        return
+    
+    fltr = re.search(r'/user_post (\d+)', msg.text)
+    limit = int(fltr.group(1)) if fltr else None
+    
+    await state.set_state(PostState.waiting_user_post)
+
+    # Notify admin about further actions
+    await bot.send_message(msg.chat.id, 
+                           f"Please send the image and the caption for the user post (limit: {limit})\n\n<b>FIY: If you want to cancel the process just use 'cancel' word</b>",
+                           parse_mode='HTML')
 
 # Create command handler
 @post_router.message(Command(commands=['post']))
@@ -46,11 +70,23 @@ async def send_advertisement(msg: types.Message, bot: Bot, state: FSMContext):
                            f"Please send the image and the caption for the post (limit: {limit})\n\n<b>FIY: If you want to cancel the process just use 'cancel' word</b>",
                            parse_mode='HTML')
 
+@post_router.message(StateFilter(PostState.waiting_user_post), F.photo | F.text)
+async def handle_user_post(msg: types.Message, bot: Bot, state: FSMContext):
+    global limit
+    
+    await state.clear()
+
+    send_post(msg, bot, get_all_users)
+
 @post_router.message(StateFilter(PostState.waiting_post), F.photo | F.text)
 async def handle_post(msg: types.Message, bot: Bot, state: FSMContext):
     global limit
 
     await state.clear()
+
+    send_post(msg, bot, get_all_chats)
+
+async def send_post(msg, bot, get_chat):
 
     if msg.photo:
         content_type = "photo"
@@ -65,12 +101,14 @@ async def handle_post(msg: types.Message, bot: Bot, state: FSMContext):
         await bot.send_message(msg.chat.id, "Action cancelled")
         return
     # Get all chat ids from the database
-    chat_ids = list(get_all_chats())
+    chat_ids = list(get_chat())
 
     if limit:
         chat_ids = chat_ids[:limit]
 
     for chat in chat_ids:
+        asyncio.sleep(2)
+
         try:
             if content_type == "photo":
                 await bot.send_photo(chat_id=chat,
@@ -88,4 +126,3 @@ async def handle_post(msg: types.Message, bot: Bot, state: FSMContext):
             pass
     
     await bot.send_message(msg.chat.id, f"Post with image and caption was sent")
-    
