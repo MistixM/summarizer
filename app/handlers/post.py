@@ -76,7 +76,7 @@ async def handle_user_post(msg: types.Message, bot: Bot, state: FSMContext):
     
     await state.clear()
 
-    send_post(msg, bot, get_all_users)
+    await send_post(msg, bot, get_all_users)
 
 @post_router.message(StateFilter(PostState.waiting_post), F.photo | F.text)
 async def handle_post(msg: types.Message, bot: Bot, state: FSMContext):
@@ -84,7 +84,7 @@ async def handle_post(msg: types.Message, bot: Bot, state: FSMContext):
 
     await state.clear()
 
-    send_post(msg, bot, get_all_chats)
+    await send_post(msg, bot, get_all_chats)
 
 async def send_post(msg, bot, get_chat):
 
